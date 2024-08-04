@@ -60,9 +60,11 @@ button:hover {
 
 @media (max-width: 768px) {
     body {
-        height: auto;
         padding-top: 20px;
-        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .container {
+        margin-top: 50px;
     }
 }
-

@@ -57,3 +57,12 @@ button:hover {
     font-weight: bold;
     color: #333;
 }
+
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding-top: 20px;
+        justify-content: flex-start;
+    }
+}
+
